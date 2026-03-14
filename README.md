@@ -1,8 +1,12 @@
 # Student Record Management System
 
-## Technologies
+A Python-based application to manage student records using SQLite database.
+
+## Technologies Used
 - Python
+- Flask
 - SQLite
+- HTML
 
 
 ## Live Demo
@@ -12,12 +16,21 @@ https://akshhhh.pythonanywhere.com
 - Add Student
 - View Students
 - Search Student
+- Update Student Marks
 - Delete Student
-- Update Student
-- Sort Students by Marks
+- Input Validation
+- Database Timestamp Tracking
 
-## Concepts Used
-- OOP
-- File Handling
-- SQLite Database
-- Modular Programming
+## Project Structure
+student-record-management-system
+│
+├── main.py
+├── app.py
+├── database
+│   └── db.py
+├── models
+│   └── student.py
+├── templates
+│   └── index.html
+├── students.db
+└── README.md
