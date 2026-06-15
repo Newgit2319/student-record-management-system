@@ -63,3 +63,9 @@ erDiagram
 
     STUDENTS ||--o{ AUDIT_LOGS : generates
 ```
+
+### Database Tables
+
+- Students – stores student information and academic records.
+- Audit_Logs – tracks all INSERT, UPDATE, and DELETE operations.
+- Users – supports role-based access control and user management.
