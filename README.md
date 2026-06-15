@@ -34,3 +34,32 @@ student-record-management-system
 │   └── index.html
 ├── students.db
 └── README.md
+
+## Database Schema
+
+```mermaid
+erDiagram
+
+    STUDENTS {
+        VARCHAR id PK
+        VARCHAR name
+        INT marks
+        TIMESTAMP created_at
+        BOOLEAN is_deleted
+    }
+
+    AUDIT_LOGS {
+        INT log_id PK
+        VARCHAR action_type
+        VARCHAR student_id FK
+        TIMESTAMP action_time
+    }
+
+    USERS {
+        INT user_id PK
+        VARCHAR username
+        VARCHAR role
+    }
+
+    STUDENTS ||--o{ AUDIT_LOGS : generates
+```
