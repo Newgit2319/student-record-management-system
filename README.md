@@ -12,14 +12,17 @@ A Python-based application to manage student records using SQLite database.
 ## Live Demo
 https://akshhhh.pythonanywhere.com
 
-## Features
-- Add Student
-- View Students
-- Search Student
-- Update Student Marks
-- Delete Student
+## Key Features
+
+- MySQL Database Integration
+- Role-Based User Management
+- Database Audit Logging
+- Soft Delete for Data Recovery
+- CSV Export Reporting
+- Backup & Restore Scripts
+- Database Health Monitoring
 - Input Validation
-- Database Timestamp Tracking
+- Indexed Query Optimization
 
 ## Project Structure
 student-record-management-system
